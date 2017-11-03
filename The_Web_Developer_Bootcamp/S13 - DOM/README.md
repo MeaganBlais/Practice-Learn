@@ -29,18 +29,18 @@ Manipulate:
 - add/remove a class `p.classList.remove("big");` OR `p.classList.remove("big");` OR `p.classList.toggle("big");`
 - change the content of a tag 
   - text content
-    `var tag = document.querySelector("p");`
-    `tag.textContent // "Corgi mixes are very adorable!"`
-    `tag.textContent = "Corgi mixes are super duper adorable!";`
+    - `var tag = document.querySelector("p");`
+    - `tag.textContent // "Corgi mixes are very adorable!"`
+    - `tag.textContent = "Corgi mixes are super duper adorable!";`
   - html content
-    `var ul = document.querySelector("ul");`
-    `tag.innerHTML // "Corgi mixes are <strong>very</strong> adorable!"`
-    `tag.innerHTML = "Corgi mixes are <strong>super duper</strong> adorable!"`
+    - `var ul = document.querySelector("ul");`
+    - `tag.innerHTML // "Corgi mixes are <strong>very</strong> adorable!"`
+    - `tag.innerHTML = "Corgi mixes are <strong>super duper</strong> adorable!"`
 - change attributes(src, href, ...)
   - image
-    `var img = document.querySelector("img")`
-    `img.setAttribute("src", "http://www.gstatic.com/webp/gallery/4.jpg")`
+    - `var img = document.querySelector("img")`
+    - `img.setAttribute("src", "http://www.gstatic.com/webp/gallery/4.jpg")`
   - link
-    `var link = document.querySelector("a");`
-    `link.getAttribute("href"); // "www.google.ca"`
-    `link.setAttribute("href", "http://www.dogs.com");`
+    - `var link = document.querySelector("a");`
+    - `link.getAttribute("href"); // "www.google.ca"`
+    - `link.setAttribute("href", "http://www.dogs.com");`
