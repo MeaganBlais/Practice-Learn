@@ -40,9 +40,20 @@ resetButton.addEventListener("click", function() {
   p1View.classList.remove("winner");
   p2View.classList.remove("winner");
   gameOver = false;
-})
+});
+
+function reset() {
+  p1Score = 0;
+  p2Score = 0;
+  p1View.textContent = 0;
+  p2View.textContent = 0;
+  p1View.classList.remove("winner");
+  p2View.classList.remove("winner");
+  gameOver = false;
+};
 
 input.addEventListener("change", function() {
   winningScoreDisplay.textContent = input.value;
   winningScore = Number(input.value);
+  reset();
 })
